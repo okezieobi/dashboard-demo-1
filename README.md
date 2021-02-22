@@ -1,12 +1,4 @@
-# react-template
-
-React  template
-
-[![Build Status](https://travis-ci.org/okezieobi/react-template.svg?branch=main)](https://travis-ci.org/okezieobi/react-template)
-
-[![Coverage Status](https://coveralls.io/repos/github/okezieobi/react-template/badge.svg?branch=main)](https://coveralls.io/github/okezieobi/react-template?branch=main)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/08bea14d-d760-484f-906f-ce9ef235a287/deploy-status)](https://app.netlify.com/sites/my-custom-react-template/deploys)
+# dashboard demo
 
 ## Getting Started with Create React App
 
