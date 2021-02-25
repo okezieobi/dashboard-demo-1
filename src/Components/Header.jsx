@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+import TextField from '@material-ui/core/TextField';
 import NotificationIcon from '@material-ui/icons/Notifications';
 
 const useStyles = makeStyles((theme) => ({
@@ -22,9 +22,9 @@ export default function ButtonAppBar() {
   return (
     <div className={classes.root}>
       <Toolbar>
-        <Typography variant="h6" className={classes.title}>
-          News
-        </Typography>
+        <div className={classes.title}>
+          <TextField size="small" variant="outlined" placeholder="Search" />
+        </div>
         <NotificationIcon />
       </Toolbar>
     </div>
